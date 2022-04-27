@@ -30,4 +30,10 @@ html.html {
 
 .header {
   height: 500px;
+  background-image: url(/images/image-hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px
 }
