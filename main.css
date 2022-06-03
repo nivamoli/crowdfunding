@@ -4,7 +4,7 @@
   --color-secundario: hsl(176, 72%, 28%);
   --black: #000;
   --white: #FFF;
-  --gris-oscuro: hsl(0, 0%, 48%)
+  --gris-oscuro: hsl(0, 0%, 48%);
 
 
   /*-- font size --*/
@@ -13,6 +13,10 @@
   --ligth: 500;
   --light-plus: 600;
   --bold: 700;
+}
+
+body {
+  font-family: var(--font-family);
 }
 
 html.html {
@@ -37,3 +41,58 @@ html.html {
   justify-content: space-between;
   padding: 20px 30px
 }
+
+
+/* main */
+
+.main {
+  background-color: #f4f4f4;
+  padding: 60px 0px;
+}
+
+.main_card {
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: -100px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.main_card--image {
+  margin-top: -150px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main_card--title {
+  text-align: center;
+  font-size: calc(var(--font-size) + 6px);
+  margin-bottom: 15px;
+}
+
+.main_card--pgraph {
+  margin-bottom: 30px;
+  color: var(--gris-oscuro);
+  padding: 0 10px;
+}
+
+.main-call-to-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-call-to-actions__button {
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--color-principal);
+  color: white;
+  font-weight: bold;
+}
+
