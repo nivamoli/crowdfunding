@@ -47,7 +47,7 @@ html.html {
 
 .main {
   background-color: #f4f4f4;
-  padding: 60px 0px;
+  padding: 60px 0px 10px 0px;
 }
 
 .main_card {
@@ -96,3 +96,34 @@ html.html {
   font-weight: bold;
 }
 
+/* main card 2 */ 
+
+.main_card2 {
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  width: 90%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main_card1__empty_line {
+  height: 1px;
+  width: 30%;
+  margin: 0 auto;
+  background-color: var(--gris-oscuro);
+  margin-bottom: 30px;
+}
+
+.main_card2__pgraph1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main_card2__pgraph2 {
+  font-size: calc(var(--font-size) - 1px);
+  color: var(--gris-oscuro);
+  padding-bottom: 20px;
+  font-weight: 500;
+}
