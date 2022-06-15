@@ -5,6 +5,7 @@
   --black: #000;
   --white: #FFF;
   --gris-oscuro: hsl(0, 0%, 48%);
+  --gris-claro: hsl(0, 0%, 89%);
 
 
   /*-- font size --*/
@@ -27,9 +28,8 @@ html.html {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
+  --webkit-box-sizing: border-box;
   box-sizing: border-box; 
-
 }
 
 .header {
@@ -48,6 +48,7 @@ html.html {
 .main {
   background-color: #f4f4f4;
   padding: 60px 0px 10px 0px;
+  padding: 60px 0px;
 }
 
 .main_card {
@@ -127,3 +128,71 @@ html.html {
   padding-bottom: 20px;
   font-weight: 500;
 }
+
+
+/* main--card 3 --*/ 
+
+.main_card3 {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.main_cards__title {
+  margin-bottom: 20px;
+}
+
+.main_cards__pgraph1, 
+.main_cards__pgraph2 {
+  font-size: calc(var(--font-size) - 3px);
+  color: var(--gris-oscuro);
+  line-height: 25px;
+  margin-bottom: 30px;
+  font-weight:400;
+}
+
+.main-cards--card1 {
+  height: 380px;
+  border: 1px solid var(--gris-claro);
+  padding: 30px 25px;
+  padding-bottom: 50px;
+  border-radius: 7px;
+}
+
+.card1__title {
+  margin-bottom: 10px;
+}
+
+.card1__pgraph {
+  color: var(--color-principal);
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-size: calc(var(--font-size) - 2px);
+}
+
+.card1__pgraph2 {
+  font-size: calc(var(--font-size) - 3px);
+  color: var(--gris-oscuro);
+  padding-right: 15px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.card1__pgraph-span {
+  font-size: calc(var(--font-size) + 15px);
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.card1__pgraph3 {
+  margin-bottom: 20px;
+}
+
+.card1__button {
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  color: var(--white);
+  background-color: var(--color-principal);
+  font-weight: 600;
+}
+
