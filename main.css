@@ -196,3 +196,22 @@ html.html {
   font-weight: 600;
 }
 
+.main-cards--card2,
+.main-cards--card3 {
+  margin-top: 30px;
+}
+
+
+.card3__span {
+  color: var(--gris-oscuro);
+}
+
+.card3__button {
+  background: var(--gris-oscuro);
+}
+
+
+
+.
+
+
